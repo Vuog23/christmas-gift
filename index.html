@@ -68,7 +68,14 @@
             music.pause();
         }
     }
+
+    document.addEventListener("click", () => {
+        if (music.paused) {
+            music.play();
+        }
+    }, { once: true });
 </script>
+
 
 </body>
 </html>
