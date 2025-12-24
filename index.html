@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Gift 🎄</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Background Music -->
+<audio id="bg-music" autoplay loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<button class="music-btn" onclick="toggleMusic()">🎵</button>
+
+<div class="wrapper">
+
+    <!-- LEFT -->
+    <div class="left glass">
+        <h1>Merry Christmas Hoàng My 🎄</h1>
+
+        <p>
+            Anh chỉ muốn nói với em làaaaa
+        </p>
+
+        <p>
+            Chúc em một mùa giáng sinh vui vẻ
+        </p>
+
+        <p>
+            Anh về Phú Quốc mất tiêu rồi nên không rủ em đi ăn được 🥀
+        </p>    
+
+        <p>
+            Xin lỗi vì đã thất hứa cô pé đáng iu này hic, không phải anh ghost em đâu nha tại không biết bắt đầu như thía nào (nhát gái) but i'll try lol
+        </p>
+
+        <p>
+            Nói chung là chúc em Noel vui vẻ ♥️
+        </p>
+
+        <p class="signature">
+            — From Chris Nguyen  ❤️
+        </p>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="right glass">
+        <div class="grid">
+            <img src="1.jpg">
+            <img src="2.jpg">
+            <img src="3.jpg">
+            <img src="4.jpg">
+        </div>
+    </div>
+
+</div>
+
+<script>
+    const music = document.getElementById("bg-music");
+
+    function toggleMusic() {
+        if (music.paused) {
+            music.play();
+        } else {
+            music.pause();
+        }
+    }
+</script>
+
+</body>
+</html>
